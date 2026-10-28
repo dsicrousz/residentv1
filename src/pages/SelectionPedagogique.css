@@ -1,0 +1,21 @@
+/* Styles pour la page Sélection Pédagogique */
+
+.disabled-row {
+  background-color: #f8fafc;
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.disabled-row:hover > td {
+  background-color: #f8fafc !important;
+}
+
+.selected-dept-row > td {
+  background-color: #eff6ff !important;
+}
+
+@media (max-width: 768px) {
+  .ant-splitter {
+    flex-direction: column !important;
+  }
+}
